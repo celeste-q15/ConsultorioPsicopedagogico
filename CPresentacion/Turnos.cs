@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ConsultorioPsicopedagogico.CPresentacion
 {
-    public partial class NuevoConcurrente : Form
+    public partial class Turnos : Form
     {
-        public NuevoConcurrente()
+        public Turnos()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
