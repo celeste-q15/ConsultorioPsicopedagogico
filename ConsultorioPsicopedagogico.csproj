@@ -102,7 +102,6 @@
     <Compile Include="CDatos\Conexion.cs" />
     <Compile Include="CDatos\Turnos_CD.cs" />
     <Compile Include="CDatos\Tutor_CD.cs" />
-    <Compile Include="CLogica\ClasedePrueba.cs" />
     <Compile Include="CLogica\ConcurrentesCL.cs" />
     <Compile Include="CLogica\TurnoCL.cs" />
     <Compile Include="CLogica\TutorCL.cs" />
