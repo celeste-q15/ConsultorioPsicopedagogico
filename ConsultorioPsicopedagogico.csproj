@@ -47,8 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CDatos\Concurrentes_CD.cs" />
-    <Compile Include="CLogica\ClasedePrueba.cs" />
     <Compile Include="CLogica\ConcurrentesCL.cs" />
+    <Compile Include="CLogica\TurnoCL.cs" />
     <Compile Include="CPresentacion\Concurrentes.cs">
       <SubType>Form</SubType>
     </Compile>
