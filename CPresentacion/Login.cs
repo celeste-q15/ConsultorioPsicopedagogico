@@ -49,23 +49,18 @@ namespace ConsultorioPsicopedagogico
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            string  Matricula = txt_Mat.Text;
+            string Matricula = txt_Mat.Text;
             string Contraseña = txt_Contraseña.Text;
 
-            Login login = new Login();
-            LoginValidation Validacion = new LoginValidation();
+            LoginValidation validacion = new LoginValidation();
+            ValidationResult result = validacion.Validate(this);
 
-            ValidationResult result = Validacion.Validate(login);
-
-            if (string.IsNullOrWhiteSpace(Matricula))
+            if (!result.IsValid)
             {
-                MessageBox.Show("El campo de usuario no puede estar vacío.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
-            if (string.IsNullOrWhiteSpace(Contraseña))
-            {
-                MessageBox.Show("El campo de contraseña no puede estar vacío.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                foreach (var error in result.Errors)
+                {
+                    MessageBox.Show(error.ErrorMessage, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
                 return;
             }
 
@@ -81,7 +76,6 @@ namespace ConsultorioPsicopedagogico
             CPresentacion.Menu menu = new CPresentacion.Menu();
             menu.Show();
             this.Hide();
-
         }
 
         private void lblmin_Click(object sender, EventArgs e)
@@ -94,11 +88,10 @@ namespace ConsultorioPsicopedagogico
             public LoginValidation()
             {
                 RuleFor(x => x.txt_Mat.Text)
-                    .NotEmpty().WithMessage("El campo no puede estar vacío")
-                    .Length(5, 10).WithMessage("El campo debe tener entre 5 y 10 caracteres");
+                    .NotEmpty().WithMessage("El campo Usuario no puede estar vacío");
                 RuleFor(x => x.txt_Contraseña.Text)
-                    .NotEmpty().WithMessage("El campo no puede estar vacío")
-                    .Length(6, 12).WithMessage("El campo debe tener entre 6 y 12 caracteres");
+                    .NotEmpty().WithMessage("El campo Contraseña no puede estar vacío");
+               
             }
         }
             
