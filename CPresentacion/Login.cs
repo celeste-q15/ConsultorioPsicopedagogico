@@ -91,7 +91,6 @@ namespace ConsultorioPsicopedagogico
                     .NotEmpty().WithMessage("El campo Usuario no puede estar vacío");
                 RuleFor(x => x.txt_Contraseña.Text)
                     .NotEmpty().WithMessage("El campo Contraseña no puede estar vacío");
-               
             }
         }
             
