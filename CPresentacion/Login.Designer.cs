@@ -46,7 +46,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Perpetua Titling MT", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Purple;
-            this.label1.Location = new System.Drawing.Point(276, 63);
+            this.label1.Location = new System.Drawing.Point(364, 51);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(128, 22);
             this.label1.TabIndex = 0;
@@ -57,7 +57,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Purple;
-            this.label2.Location = new System.Drawing.Point(276, 161);
+            this.label2.Location = new System.Drawing.Point(364, 149);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(143, 22);
             this.label2.TabIndex = 1;
@@ -70,7 +70,7 @@
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Perpetua Titling MT", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.ForeColor = System.Drawing.Color.Purple;
-            this.btnCancelar.Location = new System.Drawing.Point(311, 228);
+            this.btnCancelar.Location = new System.Drawing.Point(399, 216);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(129, 38);
             this.btnCancelar.TabIndex = 2;
@@ -85,7 +85,7 @@
             this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIngresar.Font = new System.Drawing.Font("Perpetua Titling MT", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresar.ForeColor = System.Drawing.Color.Purple;
-            this.btnIngresar.Location = new System.Drawing.Point(544, 228);
+            this.btnIngresar.Location = new System.Drawing.Point(632, 216);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(129, 38);
             this.btnIngresar.TabIndex = 3;
@@ -99,7 +99,7 @@
             this.txt_Mat.BackColor = System.Drawing.Color.LavenderBlush;
             this.txt_Mat.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_Mat.ForeColor = System.Drawing.Color.Purple;
-            this.txt_Mat.Location = new System.Drawing.Point(438, 63);
+            this.txt_Mat.Location = new System.Drawing.Point(526, 51);
             this.txt_Mat.Name = "txt_Mat";
             this.txt_Mat.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txt_Mat.Size = new System.Drawing.Size(208, 15);
@@ -112,7 +112,7 @@
             this.txt_Contraseña.BackColor = System.Drawing.Color.LavenderBlush;
             this.txt_Contraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_Contraseña.ForeColor = System.Drawing.Color.Purple;
-            this.txt_Contraseña.Location = new System.Drawing.Point(432, 161);
+            this.txt_Contraseña.Location = new System.Drawing.Point(520, 149);
             this.txt_Contraseña.Name = "txt_Contraseña";
             this.txt_Contraseña.Size = new System.Drawing.Size(221, 15);
             this.txt_Contraseña.TabIndex = 5;
@@ -122,7 +122,7 @@
             // __________________________
             // 
             this.__________________________.AutoSize = true;
-            this.__________________________.Location = new System.Drawing.Point(432, 68);
+            this.__________________________.Location = new System.Drawing.Point(520, 56);
             this.__________________________.Name = "__________________________";
             this.__________________________.Size = new System.Drawing.Size(217, 16);
             this.__________________________.TabIndex = 7;
@@ -131,7 +131,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(432, 167);
+            this.label3.Location = new System.Drawing.Point(520, 155);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(224, 16);
             this.label3.TabIndex = 8;
@@ -142,7 +142,7 @@
             this.lblmin.AutoSize = true;
             this.lblmin.BackColor = System.Drawing.Color.LavenderBlush;
             this.lblmin.Font = new System.Drawing.Font("Stencil", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblmin.Location = new System.Drawing.Point(662, -4);
+            this.lblmin.Location = new System.Drawing.Point(810, -4);
             this.lblmin.Name = "lblmin";
             this.lblmin.Size = new System.Drawing.Size(30, 33);
             this.lblmin.TabIndex = 9;
@@ -152,9 +152,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ConsultorioPsicopedagogico.Properties.Resources.MAria_ELena_Quintana;
-            this.pictureBox1.Location = new System.Drawing.Point(-5, -4);
+            this.pictureBox1.Location = new System.Drawing.Point(12, -4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(265, 306);
+            this.pictureBox1.Size = new System.Drawing.Size(291, 330);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -165,7 +165,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LavenderBlush;
-            this.ClientSize = new System.Drawing.Size(721, 301);
+            this.ClientSize = new System.Drawing.Size(852, 325);
             this.Controls.Add(this.lblmin);
             this.Controls.Add(this.txt_Contraseña);
             this.Controls.Add(this.label3);

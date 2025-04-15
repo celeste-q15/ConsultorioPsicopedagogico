@@ -120,9 +120,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(173)))), ((int)(((byte)(233)))));
             this.pictureBox1.Image = global::ConsultorioPsicopedagogico.Properties.Resources.MAria_ELena_Quintana;
-            this.pictureBox1.Location = new System.Drawing.Point(-7, -3);
+            this.pictureBox1.Location = new System.Drawing.Point(21, -3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(405, 353);
+            this.pictureBox1.Size = new System.Drawing.Size(350, 353);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;

@@ -37,7 +37,9 @@ namespace ConsultorioPsicopedagogico.CPresentacion
 
         private void btn_Planes_Click(object sender, EventArgs e)
         {
-
+            CPresentacion.CrearInformes crearInformes = new CPresentacion.CrearInformes();
+            crearInformes.Show();
+            this.Hide();
         }
     }
 }
