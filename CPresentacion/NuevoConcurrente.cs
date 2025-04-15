@@ -26,7 +26,7 @@ namespace ConsultorioPsicopedagogico.CPresentacion
 
         private void btn_guardar_Click(object sender, EventArgs e)
         {
-            int ValConcurrente = 0, ValEscolaridad = 0, ValTutor = 0;
+            //int ValConcurrente = 0, ValEscolaridad = 0, ValTutor = 0;
             var validator = new ConcurrenteValidation();
             ValidationResult results = validator.Validate(this);
 
@@ -42,6 +42,17 @@ namespace ConsultorioPsicopedagogico.CPresentacion
             else
             {
                 MessageBox.Show("Datos guardados correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txt_anio.Text = "";
+                txt_nom.Text = "";
+                txt_ape.Text = "";
+                txt_domicilio.Text = "";
+                txt_diagnostico.Text = "";
+                txt_tutor.Text = "";
+                txt_colegio.Text = "";
+                txt_dni.Text = "";
+                txt_nivel.Text = "";
+                txt_contTutor.Text = "";
+                txt_obs.Text = "";
 
                 // Código para guardar los datos
             }
@@ -69,11 +80,9 @@ namespace ConsultorioPsicopedagogico.CPresentacion
                     .NotEmpty().WithMessage("El colegio es obligatorio.");
                 RuleFor(x => x.txt_anio.Text)
                     .NotEmpty().WithMessage("El año es obligatorio.")
-                    .Matches(@"^\d+$").WithMessage("El año solo debe contener números.")
-                    .Must(y => int.TryParse(y, out int year) && year >= 2020).WithMessage("El año debe ser a partir del 2020.");
+                    .Matches(@"^[1-6]$").WithMessage("El año debe ser un número entre 1 y 6.");
                 RuleFor(x => x.txt_nivel.Text)
-                    .NotEmpty().WithMessage("El nivel es obligatorio.")
-                    .Matches(@"^[1-6]$").WithMessage("El nivel debe ser un número entre 1 y 6.");
+                    .NotEmpty().WithMessage("El nivel es obligatorio.");               
                 RuleFor(x => x.txt_tutor.Text)
                     .NotEmpty().WithMessage("El nombre del tutor es obligatorio.");
                 RuleFor(x => x.txt_contTutor.Text)
