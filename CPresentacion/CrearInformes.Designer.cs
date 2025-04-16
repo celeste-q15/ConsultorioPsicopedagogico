@@ -117,7 +117,7 @@
             // 
             // Desc1_rtb
             // 
-            this.Desc1_rtb.Location = new System.Drawing.Point(15, 215);
+            this.Desc1_rtb.Location = new System.Drawing.Point(16, 215);
             this.Desc1_rtb.Name = "Desc1_rtb";
             this.Desc1_rtb.Size = new System.Drawing.Size(1216, 713);
             this.Desc1_rtb.TabIndex = 15;

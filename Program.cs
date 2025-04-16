@@ -17,7 +17,7 @@ namespace ConsultorioPsicopedagogico
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new NuevoConcurrente());
+            Application.Run(new Login());
         }
     }
 }
