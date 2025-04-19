@@ -135,12 +135,15 @@
             // 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.Desc1_rtb.Location = new System.Drawing.Point(16, 215);
             this.Desc1_rtb.Name = "Desc1_rtb";
             this.Desc1_rtb.Size = new System.Drawing.Size(1216, 713);
             this.Desc1_rtb.TabIndex = 15;
             this.Desc1_rtb.Text = "";
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             this.rtb_Informe.Location = new System.Drawing.Point(0, 280);
@@ -150,6 +153,9 @@
             this.rtb_Informe.TabIndex = 15;
             this.rtb_Informe.Text = "Ingrese el Informe referente al Area";
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

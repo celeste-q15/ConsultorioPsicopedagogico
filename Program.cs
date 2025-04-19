@@ -19,7 +19,11 @@ namespace ConsultorioPsicopedagogico
             Application.SetCompatibleTextRenderingDefault(false);
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             Application.Run(new Login());
+=======
+            Application.Run(new CrearInformes());
+>>>>>>> Stashed changes
 =======
             Application.Run(new CrearInformes());
 >>>>>>> Stashed changes
