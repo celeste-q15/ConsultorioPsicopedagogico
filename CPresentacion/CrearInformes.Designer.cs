@@ -134,18 +134,24 @@
             // rtb_Informe
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.Desc1_rtb.Location = new System.Drawing.Point(16, 215);
             this.Desc1_rtb.Name = "Desc1_rtb";
             this.Desc1_rtb.Size = new System.Drawing.Size(1216, 713);
             this.Desc1_rtb.TabIndex = 15;
             this.Desc1_rtb.Text = "";
 =======
+=======
+>>>>>>> Stashed changes
             this.rtb_Informe.Location = new System.Drawing.Point(0, 280);
             this.rtb_Informe.Margin = new System.Windows.Forms.Padding(2);
             this.rtb_Informe.Name = "rtb_Informe";
             this.rtb_Informe.Size = new System.Drawing.Size(890, 244);
             this.rtb_Informe.TabIndex = 15;
             this.rtb_Informe.Text = "Ingrese el Informe referente al Area";
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             // 
             // btnGuardarPDF_Click
