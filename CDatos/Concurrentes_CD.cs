@@ -24,6 +24,7 @@ namespace ConsultorioPsicopedagogico.CDatos
         private string domicilio_D;
         private string obrasocial_D;
 
+
         public int Dni_D { get => dni_D; set => dni_D = value; }
         public string Apellido_D { get => apellido_D; set => apellido_D = value; }
         public string Nombre_D { get => nombre_D; set => nombre_D = value; }

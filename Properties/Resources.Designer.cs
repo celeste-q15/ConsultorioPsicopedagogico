@@ -81,6 +81,34 @@ namespace ConsultorioPsicopedagogico.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;head&gt;
+        ///    &lt;meta charset=&quot;UTF-8&quot;&gt;
+        ///    &lt;style&gt;
+        ///        body {
+        ///            font-family: Arial, sans-serif;
+        ///            font-size: 12px;
+        ///        }
+        ///        .cabecera {
+        ///            display: flex;
+        ///            align-items: center;
+        ///            justify-content: space-between;
+        ///            background-color: #d9a7e0; /* Color igual al fondo del logo */
+        ///            padding: 10px 15px;
+        ///        }
+        ///        .cabecera img {
+        ///            width: 60px;
+        ///            height: auto;
+        ///        }        /// [resto de la cadena truncado]&quot;;.
+        /// </summary>
+        internal static string plantilla {
+            get {
+                return ResourceManager.GetString("plantilla", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Screenshot_9 {

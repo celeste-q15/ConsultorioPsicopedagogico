@@ -10,7 +10,7 @@ using System.Data;
 
 namespace ConsultorioPsicopedagogico.CLogica
 {
-    internal class Concurrentes
+    internal class ConcurrentesCL
     {
 
         private int dni_C;
@@ -35,7 +35,7 @@ namespace ConsultorioPsicopedagogico.CLogica
         public string Domicilio_C { get => domicilio_C; set => domicilio_C = value; }
         public string Obrasocial_C { get => obrasocial_C; set => obrasocial_C = value; }
 
-        private Concurrentes_CD PasarDatos(Concurrentes c)
+        private Concurrentes_CD PasarDatos(ConcurrentesCL c)
         {
             return new Concurrentes_CD
             {
@@ -52,9 +52,9 @@ namespace ConsultorioPsicopedagogico.CLogica
             };
         }
 
-        private Concurrentes PasarLogica(Concurrentes_CD c)
+        private ConcurrentesCL PasarLogica(Concurrentes_CD c)
         {
-            return new Concurrentes
+            return new ConcurrentesCL
             {
                 Dni_C = c.Dni_D,
                 Apellido_C = c.Apellido_D,
@@ -69,7 +69,7 @@ namespace ConsultorioPsicopedagogico.CLogica
             };
         }
 
-        public void CargarEnSql(Concurrentes concurrente)
+        public void CargarEnSql(ConcurrentesCL concurrente)
         {
             Concurrentes_CD datos = new Concurrentes_CD();
             datos.CargarEnSql(PasarDatos(concurrente));
@@ -81,20 +81,20 @@ namespace ConsultorioPsicopedagogico.CLogica
             return datos.TablaNuevoConcurrente();
         }
 
-        public Concurrentes SeleccionarPorDni(int dni)
+        public ConcurrentesCL SeleccionarPorDni(int dni)
         {
             Concurrentes_CD datos = new Concurrentes_CD();
             var seleccionado = datos.SelectorNuevoConcurrente(dni);
             return PasarLogica(seleccionado);
         }
 
-        public void ModificarDatos(Concurrentes concurrente)
+        public void ModificarDatos(ConcurrentesCL concurrente)
         {
             Concurrentes_CD datos = new Concurrentes_CD();
             datos.ModificarDatos(PasarDatos(concurrente));
         }
 
-        public void EliminarPorDni(Concurrentes concurrente)
+        public void EliminarPorDni(ConcurrentesCL concurrente)
         {
             Concurrentes_CD datos = new Concurrentes_CD();
             datos.EliminarNuevoConcurrente(PasarDatos(concurrente));

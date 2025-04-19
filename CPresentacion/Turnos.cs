@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ConsultorioPsicopedagogico.CLogica;
 
 namespace ConsultorioPsicopedagogico.CPresentacion
 {
@@ -16,5 +17,8 @@ namespace ConsultorioPsicopedagogico.CPresentacion
         {
             InitializeComponent();
         }
+        CLogica.ConcurrentesCL con = new CLogica.ConcurrentesCL();
+        
+        
     }
 }
