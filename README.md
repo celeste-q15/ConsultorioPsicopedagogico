@@ -1,6 +1,6 @@
 -- Crear la base de datos
 CREATE DATABASE IF NOT EXISTS ConsultorioPsicopedagogico;
--- drop database ConsultorioPsicopedagogico;
+ -- drop database ConsultorioPsicopedagogico;
 USE ConsultorioPsicopedagogico;
 
 -- Tabla de Tutores
@@ -37,6 +37,32 @@ CREATE TABLE Turnos (
     DNI_C INT NOT NULL,
     FOREIGN KEY (DNI_C) REFERENCES Concurrentes(DNI_C)
 );
+
+-- Tabla de Informes
+CREATE TABLE Informes (
+    ID_Informe INT AUTO_INCREMENT PRIMARY KEY,
+    DNI_C INT NOT NULL,
+    Fecha_Informe DATE NOT NULL,
+    FOREIGN KEY (DNI_C) REFERENCES Concurrentes(DNI_C)
+);
+
+-- Tabla de Áreas
+CREATE TABLE Areas (
+    ID_Area INT AUTO_INCREMENT PRIMARY KEY,
+    Nombre_Area VARCHAR(100) NOT NULL UNIQUE
+);
+
+-- Tabla intermedia Informe_Area con texto asociado
+CREATE TABLE Informe_Area (
+    ID_Informe INT,
+    ID_Area INT,
+    Texto_Area TEXT,
+    PRIMARY KEY (ID_Informe, ID_Area),
+    FOREIGN KEY (ID_Informe) REFERENCES Informes(ID_Informe),
+    FOREIGN KEY (ID_Area) REFERENCES Areas(ID_Area)
+);
+
+
 ---------------------------------------------------------------------------------------------------------------------------
 USE ConsultorioPsicopedagogico;
 
