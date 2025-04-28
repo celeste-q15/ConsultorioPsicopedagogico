@@ -108,6 +108,7 @@ namespace ConsultorioPsicopedagogico.CPresentacion
         }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       private ConcurrentesCL PasarLogica()
         {
             ConcurrentesCL concurrentes = new ConcurrentesCL();
@@ -155,11 +156,16 @@ namespace ConsultorioPsicopedagogico.CPresentacion
             txt_Parent.Text = "";
             txt_Mail.Text = "";
 =======
+=======
+>>>>>>> Stashed changes
         private void btn_volver_Click(object sender, EventArgs e)
         {
             CPresentacion.Menu menu = new CPresentacion.Menu();
             menu.Show();
             this.Hide();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         }
     }

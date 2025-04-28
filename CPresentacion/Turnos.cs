@@ -18,10 +18,13 @@ namespace ConsultorioPsicopedagogico.CPresentacion
             InitializeComponent();
         }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         CLogica.ConcurrentesCL con = new CLogica.ConcurrentesCL();
         
         
 =======
+=======
+>>>>>>> Stashed changes
 
         private void volver_btn_Click(object sender, EventArgs e)
         {
@@ -30,6 +33,9 @@ namespace ConsultorioPsicopedagogico.CPresentacion
             this.Hide();
 
         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 }

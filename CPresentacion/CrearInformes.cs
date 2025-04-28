@@ -110,6 +110,7 @@ namespace ConsultorioPsicopedagogico.CPresentacion
         private int CalcularEdad(string fechaNacStr)
         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             if (DateTime.TryParse(fechaNacStr, out DateTime fechaNac))
             {
                 int edad = DateTime.Today.Year - fechaNac.Year;
@@ -117,6 +118,11 @@ namespace ConsultorioPsicopedagogico.CPresentacion
                 return edad;
             }
             return 0;
+=======
+            CPresentacion.Menu menu = new CPresentacion.Menu();
+            menu.Show();
+            this.Hide();
+>>>>>>> Stashed changes
 =======
             CPresentacion.Menu menu = new CPresentacion.Menu();
             menu.Show();

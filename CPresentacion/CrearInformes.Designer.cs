@@ -40,6 +40,7 @@
             this.volver_btn = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.btn_select_DNI = new System.Windows.Forms.Button();
             this.lbl_NombreConcurrente = new System.Windows.Forms.Label();
             this.lbl_DNI = new System.Windows.Forms.Label();
@@ -50,6 +51,9 @@
             this.btn_BuscarArea = new System.Windows.Forms.Button();
             this.btn_DescargarPDF = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+=======
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+>>>>>>> Stashed changes
 =======
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
 >>>>>>> Stashed changes
@@ -71,6 +75,7 @@
             this.label1.Text = "INFORME PSICOPEDAGOGICO";
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ConsultorioPsicopedagogico.Properties.Resources.MAria_ELena_Quintana;
@@ -82,6 +87,8 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             // panel1
@@ -150,9 +157,12 @@
             // btnGuardarPDF_Click
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.btnGuardarPDF_Click.Location = new System.Drawing.Point(790, 772);
             this.btnGuardarPDF_Click.Margin = new System.Windows.Forms.Padding(2);
 =======
+=======
+>>>>>>> Stashed changes
             this.btnGuardarPDF_Click.BackColor = System.Drawing.Color.Thistle;
             this.btnGuardarPDF_Click.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardarPDF_Click.Font = new System.Drawing.Font("Perpetua Titling MT", 7.8F, System.Drawing.FontStyle.Bold);
@@ -164,8 +174,11 @@
             this.btnGuardarPDF_Click.TabIndex = 28;
             this.btnGuardarPDF_Click.Text = "GUARDAR";
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.btnGuardarPDF_Click.UseVisualStyleBackColor = true;
 =======
+=======
+>>>>>>> Stashed changes
             this.btnGuardarPDF_Click.UseVisualStyleBackColor = false;
             this.btnGuardarPDF_Click.Click += new System.EventHandler(this.btnGuardarPDF_Click_Click);
 >>>>>>> Stashed changes
@@ -186,9 +199,12 @@
             // volver_btn
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.volver_btn.Location = new System.Drawing.Point(47, 772);
             this.volver_btn.Margin = new System.Windows.Forms.Padding(2);
 =======
+=======
+>>>>>>> Stashed changes
             this.volver_btn.BackColor = System.Drawing.Color.Thistle;
             this.volver_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.volver_btn.Font = new System.Drawing.Font("Perpetua Titling MT", 7.8F, System.Drawing.FontStyle.Bold);
@@ -199,9 +215,12 @@
             this.volver_btn.Size = new System.Drawing.Size(119, 33);
             this.volver_btn.TabIndex = 30;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.volver_btn.Text = "Volver";
             this.volver_btn.UseVisualStyleBackColor = true;
 =======
+=======
+>>>>>>> Stashed changes
             this.volver_btn.Text = "VOLVER";
             this.volver_btn.UseVisualStyleBackColor = false;
             this.volver_btn.Click += new System.EventHandler(this.volver_btn_Click);
@@ -216,6 +235,7 @@
             this.dateTimePicker1.TabIndex = 31;
             this.dateTimePicker1.Visible = false;
             // 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             // btn_select_DNI
             // 
@@ -299,6 +319,8 @@
             this.btn_DescargarPDF.UseVisualStyleBackColor = true;
             this.btn_DescargarPDF.Click += new System.EventHandler(this.btn_DescargarPDF_Click);
 =======
+=======
+>>>>>>> Stashed changes
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ConsultorioPsicopedagogico.Properties.Resources.MAria_ELena_Quintana;
@@ -308,6 +330,9 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             // 
             // CrearInformes

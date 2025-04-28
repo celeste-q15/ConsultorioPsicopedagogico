@@ -79,10 +79,16 @@
             // 
             this.label1.AutoSize = true;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label1.Location = new System.Drawing.Point(83, 166);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(26, 13);
+=======
+            this.label1.Location = new System.Drawing.Point(97, 255);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(30, 16);
+>>>>>>> Stashed changes
 =======
             this.label1.Location = new System.Drawing.Point(97, 255);
             this.label1.Name = "label1";
@@ -95,10 +101,16 @@
             // 
             this.label2.AutoSize = true;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label2.Location = new System.Drawing.Point(83, 194);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
+=======
+            this.label2.Location = new System.Drawing.Point(97, 290);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(56, 16);
+>>>>>>> Stashed changes
 =======
             this.label2.Location = new System.Drawing.Point(97, 290);
             this.label2.Name = "label2";
@@ -111,10 +123,16 @@
             // 
             this.label3.AutoSize = true;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label3.Location = new System.Drawing.Point(83, 225);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 13);
+=======
+            this.label3.Location = new System.Drawing.Point(97, 327);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(57, 16);
+>>>>>>> Stashed changes
 =======
             this.label3.Location = new System.Drawing.Point(97, 327);
             this.label3.Name = "label3";
@@ -127,10 +145,16 @@
             // 
             this.label4.AutoSize = true;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label4.Location = new System.Drawing.Point(83, 253);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(108, 13);
+=======
+            this.label4.Location = new System.Drawing.Point(97, 362);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(135, 16);
+>>>>>>> Stashed changes
 =======
             this.label4.Location = new System.Drawing.Point(97, 362);
             this.label4.Name = "label4";
@@ -143,10 +167,16 @@
             // 
             this.label5.AutoSize = true;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label5.Location = new System.Drawing.Point(83, 284);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 13);
+=======
+            this.label5.Location = new System.Drawing.Point(97, 400);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(79, 16);
+>>>>>>> Stashed changes
 =======
             this.label5.Location = new System.Drawing.Point(97, 400);
             this.label5.Name = "label5";
@@ -159,10 +189,16 @@
             // 
             this.label6.AutoSize = true;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label6.Location = new System.Drawing.Point(479, 170);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(85, 13);
+=======
+            this.label6.Location = new System.Drawing.Point(626, 259);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(107, 16);
+>>>>>>> Stashed changes
 =======
             this.label6.Location = new System.Drawing.Point(626, 259);
             this.label6.Name = "label6";
@@ -175,10 +211,16 @@
             // 
             this.label7.AutoSize = true;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label7.Location = new System.Drawing.Point(479, 198);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(64, 13);
+=======
+            this.label7.Location = new System.Drawing.Point(626, 294);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(80, 16);
+>>>>>>> Stashed changes
 =======
             this.label7.Location = new System.Drawing.Point(626, 294);
             this.label7.Name = "label7";
@@ -191,10 +233,16 @@
             // 
             this.label8.AutoSize = true;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label8.Location = new System.Drawing.Point(479, 228);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(69, 13);
+=======
+            this.label8.Location = new System.Drawing.Point(626, 331);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(87, 16);
+>>>>>>> Stashed changes
 =======
             this.label8.Location = new System.Drawing.Point(626, 331);
             this.label8.Name = "label8";
@@ -207,10 +255,16 @@
             // 
             this.label9.AutoSize = true;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label9.Location = new System.Drawing.Point(83, 317);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(49, 13);
+=======
+            this.label9.Location = new System.Drawing.Point(97, 440);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(63, 16);
+>>>>>>> Stashed changes
 =======
             this.label9.Location = new System.Drawing.Point(97, 440);
             this.label9.Name = "label9";
@@ -223,10 +277,16 @@
             // 
             this.label10.AutoSize = true;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label10.Location = new System.Drawing.Point(479, 300);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(32, 13);
+=======
+            this.label10.Location = new System.Drawing.Point(626, 440);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(38, 16);
+>>>>>>> Stashed changes
 =======
             this.label10.Location = new System.Drawing.Point(626, 440);
             this.label10.Name = "label10";
@@ -239,10 +299,16 @@
             // 
             this.label11.AutoSize = true;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label11.Location = new System.Drawing.Point(416, 378);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(95, 13);
+=======
+            this.label11.Location = new System.Drawing.Point(626, 475);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(116, 16);
+>>>>>>> Stashed changes
 =======
             this.label11.Location = new System.Drawing.Point(626, 475);
             this.label11.Name = "label11";
@@ -255,10 +321,16 @@
             // 
             this.label12.AutoSize = true;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label12.Location = new System.Drawing.Point(449, 409);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(62, 13);
+=======
+            this.label12.Location = new System.Drawing.Point(626, 510);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(78, 16);
+>>>>>>> Stashed changes
 =======
             this.label12.Location = new System.Drawing.Point(626, 510);
             this.label12.Name = "label12";
@@ -272,10 +344,16 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label13.Location = new System.Drawing.Point(83, 131);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(250, 20);
+=======
+            this.label13.Location = new System.Drawing.Point(97, 212);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(310, 24);
+>>>>>>> Stashed changes
 =======
             this.label13.Location = new System.Drawing.Point(97, 212);
             this.label13.Name = "label13";
@@ -289,10 +367,16 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Perpetua Titling MT", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label14.Location = new System.Drawing.Point(199, 34);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(454, 42);
+=======
+            this.label14.Location = new System.Drawing.Point(255, 68);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(559, 52);
+>>>>>>> Stashed changes
 =======
             this.label14.Location = new System.Drawing.Point(255, 68);
             this.label14.Name = "label14";
@@ -306,10 +390,16 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label15.Location = new System.Drawing.Point(479, 131);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(134, 20);
+=======
+            this.label15.Location = new System.Drawing.Point(625, 212);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(163, 24);
+>>>>>>> Stashed changes
 =======
             this.label15.Location = new System.Drawing.Point(625, 212);
             this.label15.Name = "label15";
@@ -323,10 +413,16 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label16.Location = new System.Drawing.Point(479, 267);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(173, 20);
+=======
+            this.label16.Location = new System.Drawing.Point(625, 400);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(215, 24);
+>>>>>>> Stashed changes
 =======
             this.label16.Location = new System.Drawing.Point(625, 400);
             this.label16.Name = "label16";
@@ -338,10 +434,16 @@
             // txt_dni
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.txt_dni.Location = new System.Drawing.Point(137, 164);
             this.txt_dni.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_dni.Name = "txt_dni";
             this.txt_dni.Size = new System.Drawing.Size(226, 20);
+=======
+            this.txt_dni.Location = new System.Drawing.Point(170, 252);
+            this.txt_dni.Name = "txt_dni";
+            this.txt_dni.Size = new System.Drawing.Size(300, 22);
+>>>>>>> Stashed changes
 =======
             this.txt_dni.Location = new System.Drawing.Point(170, 252);
             this.txt_dni.Name = "txt_dni";
@@ -353,10 +455,16 @@
             // txt_nom
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.txt_nom.Location = new System.Drawing.Point(137, 192);
             this.txt_nom.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_nom.Name = "txt_nom";
             this.txt_nom.Size = new System.Drawing.Size(226, 20);
+=======
+            this.txt_nom.Location = new System.Drawing.Point(170, 287);
+            this.txt_nom.Name = "txt_nom";
+            this.txt_nom.Size = new System.Drawing.Size(300, 22);
+>>>>>>> Stashed changes
 =======
             this.txt_nom.Location = new System.Drawing.Point(170, 287);
             this.txt_nom.Name = "txt_nom";
@@ -367,10 +475,16 @@
             // txt_ape
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.txt_ape.Location = new System.Drawing.Point(137, 225);
             this.txt_ape.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_ape.Name = "txt_ape";
             this.txt_ape.Size = new System.Drawing.Size(226, 20);
+=======
+            this.txt_ape.Location = new System.Drawing.Point(170, 327);
+            this.txt_ape.Name = "txt_ape";
+            this.txt_ape.Size = new System.Drawing.Size(300, 22);
+>>>>>>> Stashed changes
 =======
             this.txt_ape.Location = new System.Drawing.Point(170, 327);
             this.txt_ape.Name = "txt_ape";
@@ -381,10 +495,16 @@
             // txt_diagnostico
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.txt_diagnostico.Location = new System.Drawing.Point(163, 281);
             this.txt_diagnostico.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_diagnostico.Name = "txt_diagnostico";
             this.txt_diagnostico.Size = new System.Drawing.Size(201, 20);
+=======
+            this.txt_diagnostico.Location = new System.Drawing.Point(204, 397);
+            this.txt_diagnostico.Name = "txt_diagnostico";
+            this.txt_diagnostico.Size = new System.Drawing.Size(266, 22);
+>>>>>>> Stashed changes
 =======
             this.txt_diagnostico.Location = new System.Drawing.Point(204, 397);
             this.txt_diagnostico.Name = "txt_diagnostico";
@@ -395,10 +515,16 @@
             // txt_domicilio
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.txt_domicilio.Location = new System.Drawing.Point(163, 314);
             this.txt_domicilio.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_domicilio.Name = "txt_domicilio";
             this.txt_domicilio.Size = new System.Drawing.Size(201, 20);
+=======
+            this.txt_domicilio.Location = new System.Drawing.Point(204, 437);
+            this.txt_domicilio.Name = "txt_domicilio";
+            this.txt_domicilio.Size = new System.Drawing.Size(266, 22);
+>>>>>>> Stashed changes
 =======
             this.txt_domicilio.Location = new System.Drawing.Point(204, 437);
             this.txt_domicilio.Name = "txt_domicilio";
@@ -409,10 +535,16 @@
             // txt_colegio
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.txt_colegio.Location = new System.Drawing.Point(564, 167);
             this.txt_colegio.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_colegio.Name = "txt_colegio";
             this.txt_colegio.Size = new System.Drawing.Size(231, 20);
+=======
+            this.txt_colegio.Location = new System.Drawing.Point(739, 256);
+            this.txt_colegio.Name = "txt_colegio";
+            this.txt_colegio.Size = new System.Drawing.Size(307, 22);
+>>>>>>> Stashed changes
 =======
             this.txt_colegio.Location = new System.Drawing.Point(739, 256);
             this.txt_colegio.Name = "txt_colegio";
@@ -423,10 +555,16 @@
             // txt_anio
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.txt_anio.Location = new System.Drawing.Point(564, 196);
             this.txt_anio.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_anio.Name = "txt_anio";
             this.txt_anio.Size = new System.Drawing.Size(231, 20);
+=======
+            this.txt_anio.Location = new System.Drawing.Point(739, 291);
+            this.txt_anio.Name = "txt_anio";
+            this.txt_anio.Size = new System.Drawing.Size(307, 22);
+>>>>>>> Stashed changes
 =======
             this.txt_anio.Location = new System.Drawing.Point(739, 291);
             this.txt_anio.Name = "txt_anio";
@@ -437,10 +575,16 @@
             // txt_nivel
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.txt_nivel.Location = new System.Drawing.Point(564, 228);
             this.txt_nivel.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_nivel.Name = "txt_nivel";
             this.txt_nivel.Size = new System.Drawing.Size(231, 20);
+=======
+            this.txt_nivel.Location = new System.Drawing.Point(739, 331);
+            this.txt_nivel.Name = "txt_nivel";
+            this.txt_nivel.Size = new System.Drawing.Size(307, 22);
+>>>>>>> Stashed changes
 =======
             this.txt_nivel.Location = new System.Drawing.Point(739, 331);
             this.txt_nivel.Name = "txt_nivel";
@@ -451,10 +595,16 @@
             // txt_tutor
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.txt_tutor.Location = new System.Drawing.Point(519, 300);
             this.txt_tutor.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_tutor.Name = "txt_tutor";
             this.txt_tutor.Size = new System.Drawing.Size(276, 20);
+=======
+            this.txt_tutor.Location = new System.Drawing.Point(679, 440);
+            this.txt_tutor.Name = "txt_tutor";
+            this.txt_tutor.Size = new System.Drawing.Size(367, 22);
+>>>>>>> Stashed changes
 =======
             this.txt_tutor.Location = new System.Drawing.Point(679, 440);
             this.txt_tutor.Name = "txt_tutor";
@@ -465,10 +615,16 @@
             // txt_contTutor
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.txt_contTutor.Location = new System.Drawing.Point(519, 380);
             this.txt_contTutor.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_contTutor.Name = "txt_contTutor";
             this.txt_contTutor.Size = new System.Drawing.Size(276, 20);
+=======
+            this.txt_contTutor.Location = new System.Drawing.Point(748, 472);
+            this.txt_contTutor.Name = "txt_contTutor";
+            this.txt_contTutor.Size = new System.Drawing.Size(298, 22);
+>>>>>>> Stashed changes
 =======
             this.txt_contTutor.Location = new System.Drawing.Point(748, 472);
             this.txt_contTutor.Name = "txt_contTutor";
@@ -479,10 +635,16 @@
             // txt_obs
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.txt_obs.Location = new System.Drawing.Point(519, 406);
             this.txt_obs.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_obs.Name = "txt_obs";
             this.txt_obs.Size = new System.Drawing.Size(276, 20);
+=======
+            this.txt_obs.Location = new System.Drawing.Point(724, 507);
+            this.txt_obs.Name = "txt_obs";
+            this.txt_obs.Size = new System.Drawing.Size(322, 22);
+>>>>>>> Stashed changes
 =======
             this.txt_obs.Location = new System.Drawing.Point(724, 507);
             this.txt_obs.Name = "txt_obs";
@@ -497,10 +659,16 @@
             this.btn_volver.Font = new System.Drawing.Font("Perpetua Titling MT", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_volver.ForeColor = System.Drawing.Color.Purple;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.btn_volver.Location = new System.Drawing.Point(9, 467);
             this.btn_volver.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btn_volver.Name = "btn_volver";
             this.btn_volver.Size = new System.Drawing.Size(133, 46);
+=======
+            this.btn_volver.Location = new System.Drawing.Point(12, 575);
+            this.btn_volver.Name = "btn_volver";
+            this.btn_volver.Size = new System.Drawing.Size(178, 57);
+>>>>>>> Stashed changes
 =======
             this.btn_volver.Location = new System.Drawing.Point(12, 575);
             this.btn_volver.Name = "btn_volver";
@@ -515,10 +683,16 @@
             // 
             this.pictureBox1.Image = global::ConsultorioPsicopedagogico.Properties.Resources.Screenshot_9;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.pictureBox1.Location = new System.Drawing.Point(410, 267);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(65, 64);
+=======
+            this.pictureBox1.Location = new System.Drawing.Point(533, 400);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(86, 79);
+>>>>>>> Stashed changes
 =======
             this.pictureBox1.Location = new System.Drawing.Point(533, 400);
             this.pictureBox1.Name = "pictureBox1";
@@ -532,10 +706,16 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.pictureBox2.Location = new System.Drawing.Point(14, 131);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(65, 64);
+=======
+            this.pictureBox2.Location = new System.Drawing.Point(5, 212);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(86, 79);
+>>>>>>> Stashed changes
 =======
             this.pictureBox2.Location = new System.Drawing.Point(5, 212);
             this.pictureBox2.Name = "pictureBox2";
@@ -549,10 +729,16 @@
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.pictureBox3.Location = new System.Drawing.Point(410, 131);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(65, 65);
+=======
+            this.pictureBox3.Location = new System.Drawing.Point(533, 212);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(86, 80);
+>>>>>>> Stashed changes
 =======
             this.pictureBox3.Location = new System.Drawing.Point(533, 212);
             this.pictureBox3.Name = "pictureBox3";
@@ -566,10 +752,16 @@
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.pictureBox4.Location = new System.Drawing.Point(121, 11);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(73, 81);
+=======
+            this.pictureBox4.Location = new System.Drawing.Point(151, 40);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(98, 99);
+>>>>>>> Stashed changes
 =======
             this.pictureBox4.Location = new System.Drawing.Point(151, 40);
             this.pictureBox4.Name = "pictureBox4";
@@ -584,10 +776,16 @@
             this.date_naci.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
             this.date_naci.Format = System.Windows.Forms.DateTimePickerFormat.Short;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.date_naci.Location = new System.Drawing.Point(188, 251);
             this.date_naci.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.date_naci.Name = "date_naci";
             this.date_naci.Size = new System.Drawing.Size(83, 20);
+=======
+            this.date_naci.Location = new System.Drawing.Point(237, 359);
+            this.date_naci.Name = "date_naci";
+            this.date_naci.Size = new System.Drawing.Size(109, 22);
+>>>>>>> Stashed changes
 =======
             this.date_naci.Location = new System.Drawing.Point(237, 359);
             this.date_naci.Name = "date_naci";
@@ -602,10 +800,16 @@
             this.btn_guardar.Font = new System.Drawing.Font("Perpetua Titling MT", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_guardar.ForeColor = System.Drawing.Color.Purple;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.btn_guardar.Location = new System.Drawing.Point(672, 471);
             this.btn_guardar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btn_guardar.Name = "btn_guardar";
             this.btn_guardar.Size = new System.Drawing.Size(133, 46);
+=======
+            this.btn_guardar.Location = new System.Drawing.Point(896, 580);
+            this.btn_guardar.Name = "btn_guardar";
+            this.btn_guardar.Size = new System.Drawing.Size(178, 57);
+>>>>>>> Stashed changes
 =======
             this.btn_guardar.Location = new System.Drawing.Point(896, 580);
             this.btn_guardar.Name = "btn_guardar";
@@ -673,6 +877,7 @@
             // NuevoConcurrente
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LavenderBlush;
@@ -683,6 +888,12 @@
             this.Controls.Add(this.label18);
             this.Controls.Add(this.txt_DniTutor);
             this.Controls.Add(this.label17);
+=======
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
+            this.ClientSize = new System.Drawing.Size(1084, 647);
+>>>>>>> Stashed changes
 =======
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -724,7 +935,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             this.Name = "NuevoConcurrente";
