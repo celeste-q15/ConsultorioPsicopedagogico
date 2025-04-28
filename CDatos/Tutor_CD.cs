@@ -16,14 +16,15 @@ namespace ConsultorioPsicopedagogico.CDatos
         private int dniTutor_D;
         private string apellidoTutor_D;
         private string nombreTutor_D;
-        private string parentezcoTutor_D;
+        private string parentescoTutor_D;
         private string telefonoTutor_D;
         private string emailTutor_D;
+
 
         public int DniTutor_D { get => dniTutor_D; set => dniTutor_D = value; }
         public string ApellidoTutor_D { get => apellidoTutor_D; set => apellidoTutor_D = value; }
         public string NombreTutor_D { get => nombreTutor_D; set => nombreTutor_D = value; }
-        public string ParentezcoTutor_D { get => parentezcoTutor_D; set => parentezcoTutor_D = value; }
+        public string ParentescoTutor_D { get => parentescoTutor_D; set => parentescoTutor_D = value; }
         public string TelefonoTutor_D { get => telefonoTutor_D; set => telefonoTutor_D = value; }
         public string EmailTutor_D { get => emailTutor_D; set => emailTutor_D = value; }
 
@@ -36,12 +37,12 @@ namespace ConsultorioPsicopedagogico.CDatos
                     conexion.Open();
 
                     string query = esNuevo
-                        ? @"INSERT INTO Tutores (DNI_Tutor, Apellido, Nombre, Parentezco, Telefono, Email)
-                   VALUES (@Dni, @Apellido, @Nombre, @Parentezco, @Telefono, @Email)"
-                        : @"UPDATE Tutores SET 
+                        ? @"INSERT INTO Tutor (DNI_Tutor, Apellido, Nombre, Parentesco, Telefono, Email)
+                   VALUES (@Dni, @Apellido, @Nombre, @Parentesco, @Telefono, @Email)"
+                        : @"UPDATE Tutor SET 
                         Apellido = @Apellido,
                         Nombre = @Nombre,
-                        Parentezco = @Parentezco,
+                        Parentesco = @Parentesco,
                         Telefono = @Telefono,
                         Email = @Email
                    WHERE DNI_Tutor = @Dni";
@@ -51,7 +52,7 @@ namespace ConsultorioPsicopedagogico.CDatos
                         comando.Parameters.AddWithValue("@Dni", tutor.DniTutor_D);
                         comando.Parameters.AddWithValue("@Apellido", tutor.ApellidoTutor_D);
                         comando.Parameters.AddWithValue("@Nombre", tutor.NombreTutor_D);
-                        comando.Parameters.AddWithValue("@Parentezco", tutor.ParentezcoTutor_D);
+                        comando.Parameters.AddWithValue("@Parentesco", tutor.ParentescoTutor_D);
                         comando.Parameters.AddWithValue("@Telefono", tutor.TelefonoTutor_D);
                         comando.Parameters.AddWithValue("@Email", tutor.EmailTutor_D);
 
@@ -76,7 +77,7 @@ namespace ConsultorioPsicopedagogico.CDatos
                 {
                     conexion.Open();
 
-                    string query = "DELETE FROM Tutores WHERE DNI_Tutor = @Dni";
+                    string query = "DELETE FROM Tutor WHERE DNI_Tutor = @Dni";
 
                     using (MySqlCommand comando = new MySqlCommand(query, conexion))
                     {
@@ -102,7 +103,7 @@ namespace ConsultorioPsicopedagogico.CDatos
                 using (MySqlConnection conexion = new MySqlConnection(Conexion.ConnectionString))
                 {
                     conexion.Open();
-                    string query = "SELECT * FROM Tutores WHERE DNI_Tutor = @Dni";
+                    string query = "SELECT * FROM Tutor WHERE DNI_Tutor = @Dni";
 
                     using (MySqlCommand comando = new MySqlCommand(query, conexion))
                     {
@@ -117,7 +118,7 @@ namespace ConsultorioPsicopedagogico.CDatos
                                     DniTutor_D = Convert.ToInt32(reader["DNI_Tutor"]),
                                     ApellidoTutor_D = reader["Apellido"].ToString(),
                                     NombreTutor_D = reader["Nombre"].ToString(),
-                                    ParentezcoTutor_D = reader["Parentezco"].ToString(),
+                                    ParentescoTutor_D = reader["Parentesco"].ToString(),
                                     TelefonoTutor_D = reader["Telefono"].ToString(),
                                     EmailTutor_D = reader["Email"].ToString()
                                 };
@@ -143,7 +144,7 @@ namespace ConsultorioPsicopedagogico.CDatos
                 {
                     conexion.Open();
 
-                    string query = "SELECT * FROM Tutores";
+                    string query = "SELECT * FROM Tutor";
                     using (MySqlCommand comando = new MySqlCommand(query, conexion))
                     using (MySqlDataReader reader = comando.ExecuteReader())
                     {
@@ -172,7 +173,7 @@ namespace ConsultorioPsicopedagogico.CDatos
         //            conexion.Open();
 
         //            string query = @"
-        //        SELECT * FROM Tutores 
+        //        SELECT * FROM Tutor 
         //        WHERE 
         //            (@Dni IS NULL OR DNI_Tutor = @Dni) AND 
         //            (Apellido LIKE @Texto OR Nombre LIKE @Texto)";

@@ -15,14 +15,14 @@ namespace ConsultorioPsicopedagogico.CLogica
         private int dniTutor_C;
         private string apellidoTutor_C;
         private string nombreTutor_C;
-        private string parentezcoTutor_C;
+        private string parentescoTutor_C;
         private string telefonoTutor_C;
         private string emailTutor_C;
 
         public int DniTutor_C { get => dniTutor_C; set => dniTutor_C = value; }
         public string ApellidoTutor_C { get => apellidoTutor_C; set => apellidoTutor_C = value; }
         public string NombreTutor_C { get => nombreTutor_C; set => nombreTutor_C = value; }
-        public string ParentezcoTutor_C { get => parentezcoTutor_C; set => parentezcoTutor_C = value; }
+        public string ParentescoTutor_C { get => parentescoTutor_C; set => parentescoTutor_C = value; }
         public string TelefonoTutor_C { get => telefonoTutor_C; set => telefonoTutor_C = value; }
         public string EmailTutor_C { get => emailTutor_C; set => emailTutor_C = value; }
 
@@ -33,7 +33,7 @@ namespace ConsultorioPsicopedagogico.CLogica
                 DniTutor_D = t.DniTutor_C,
                 ApellidoTutor_D = t.ApellidoTutor_C,
                 NombreTutor_D = t.NombreTutor_C,
-                ParentezcoTutor_D = t.ParentezcoTutor_C,
+                ParentescoTutor_D = t.ParentescoTutor_C,
                 TelefonoTutor_D = t.TelefonoTutor_C,
                 EmailTutor_D = t.EmailTutor_C
             };
@@ -47,7 +47,7 @@ namespace ConsultorioPsicopedagogico.CLogica
                 DniTutor_C = t.DniTutor_D,
                 ApellidoTutor_C = t.ApellidoTutor_D,
                 NombreTutor_C = t.NombreTutor_D,
-                ParentezcoTutor_C = t.ParentezcoTutor_D,
+                ParentescoTutor_C = t.ParentescoTutor_D,
                 TelefonoTutor_C = t.TelefonoTutor_D,
                 EmailTutor_C = t.EmailTutor_D
             };
