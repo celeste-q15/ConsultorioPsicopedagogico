@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dtg_concurrentes = new System.Windows.Forms.DataGridView();
             this.DNI = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -57,13 +57,13 @@
             // 
             // dtg_concurrentes
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.LavenderBlush;
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.Format = "N0";
-            dataGridViewCellStyle1.NullValue = null;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(173)))), ((int)(((byte)(233)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
-            this.dtg_concurrentes.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.LavenderBlush;
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.Format = "N0";
+            dataGridViewCellStyle3.NullValue = null;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(173)))), ((int)(((byte)(233)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            this.dtg_concurrentes.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dtg_concurrentes.BackgroundColor = System.Drawing.Color.LavenderBlush;
             this.dtg_concurrentes.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dtg_concurrentes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -84,11 +84,11 @@
             this.dtg_concurrentes.Location = new System.Drawing.Point(12, 80);
             this.dtg_concurrentes.Name = "dtg_concurrentes";
             this.dtg_concurrentes.RowHeadersWidth = 51;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.LavenderBlush;
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(173)))), ((int)(((byte)(233)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
-            this.dtg_concurrentes.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.LavenderBlush;
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(173)))), ((int)(((byte)(233)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            this.dtg_concurrentes.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dtg_concurrentes.RowTemplate.Height = 24;
             this.dtg_concurrentes.Size = new System.Drawing.Size(1148, 478);
             this.dtg_concurrentes.TabIndex = 0;
@@ -187,7 +187,7 @@
             // 
             // btn_buscar
             // 
-            this.btn_buscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(173)))), ((int)(((byte)(233)))));
+            this.btn_buscar.BackColor = System.Drawing.Color.Thistle;
             this.btn_buscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_buscar.Font = new System.Drawing.Font("Perpetua Titling MT", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -201,7 +201,7 @@
             // 
             // btn_agregar
             // 
-            this.btn_agregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(173)))), ((int)(((byte)(233)))));
+            this.btn_agregar.BackColor = System.Drawing.Color.Thistle;
             this.btn_agregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_agregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_agregar.Font = new System.Drawing.Font("Perpetua Titling MT", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -236,7 +236,7 @@
             // 
             // btn_editar
             // 
-            this.btn_editar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(173)))), ((int)(((byte)(233)))));
+            this.btn_editar.BackColor = System.Drawing.Color.Thistle;
             this.btn_editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_editar.Font = new System.Drawing.Font("Perpetua Titling MT", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_editar.ForeColor = System.Drawing.Color.Purple;
@@ -249,7 +249,7 @@
             // 
             // btn_eliminar
             // 
-            this.btn_eliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(173)))), ((int)(((byte)(233)))));
+            this.btn_eliminar.BackColor = System.Drawing.Color.Thistle;
             this.btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_eliminar.Font = new System.Drawing.Font("Perpetua Titling MT", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_eliminar.ForeColor = System.Drawing.Color.Purple;
@@ -262,7 +262,7 @@
             // 
             // btn_volver
             // 
-            this.btn_volver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(173)))), ((int)(((byte)(233)))));
+            this.btn_volver.BackColor = System.Drawing.Color.Thistle;
             this.btn_volver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_volver.Font = new System.Drawing.Font("Perpetua Titling MT", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_volver.ForeColor = System.Drawing.Color.Purple;
@@ -272,6 +272,7 @@
             this.btn_volver.TabIndex = 9;
             this.btn_volver.Text = "Volver";
             this.btn_volver.UseVisualStyleBackColor = false;
+            this.btn_volver.Click += new System.EventHandler(this.btn_volver_Click);
             // 
             // Concurrentes
             // 

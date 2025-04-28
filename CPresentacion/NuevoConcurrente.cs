@@ -107,6 +107,7 @@ namespace ConsultorioPsicopedagogico.CPresentacion
             }
         }
 
+<<<<<<< Updated upstream
       private ConcurrentesCL PasarLogica()
         {
             ConcurrentesCL concurrentes = new ConcurrentesCL();
@@ -153,6 +154,13 @@ namespace ConsultorioPsicopedagogico.CPresentacion
             txt_DniTutor.Text = "";
             txt_Parent.Text = "";
             txt_Mail.Text = "";
+=======
+        private void btn_volver_Click(object sender, EventArgs e)
+        {
+            CPresentacion.Menu menu = new CPresentacion.Menu();
+            menu.Show();
+            this.Hide();
+>>>>>>> Stashed changes
         }
     }
 }

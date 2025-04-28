@@ -24,5 +24,12 @@ namespace ConsultorioPsicopedagogico.CPresentacion
             nuevoConcurrente.Show();
             this.Hide();
         }
+
+        private void btn_volver_Click(object sender, EventArgs e)
+        {
+            CPresentacion.Menu menu = new CPresentacion.Menu();
+            menu.Show();
+            this.Hide();
+        }
     }
 }
