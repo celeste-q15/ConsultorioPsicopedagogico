@@ -153,20 +153,14 @@
   </ItemGroup>
   <ItemGroup>
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
     <Compile Include="CDatos\Area_CD.cs" />
 =======
-=======
->>>>>>> Stashed changes
     <Compile Include="Agregar_Turnos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Agregar_Turnos.Designer.cs">
       <DependentUpon>Agregar_Turnos.cs</DependentUpon>
     </Compile>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
     <Compile Include="CDatos\Concurrentes_CD.cs" />
     <Compile Include="CDatos\Conexion.cs" />
