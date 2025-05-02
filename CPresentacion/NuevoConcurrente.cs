@@ -9,6 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ConsultorioPsicopedagogico.CLogica;
+using System.Drawing.Text;
 
 namespace ConsultorioPsicopedagogico.CPresentacion
 {
@@ -26,13 +28,12 @@ namespace ConsultorioPsicopedagogico.CPresentacion
 
         private void btn_guardar_Click(object sender, EventArgs e)
         {
-            //int ValConcurrente = 0, ValEscolaridad = 0, ValTutor = 0;
+      
             var validator = new ConcurrenteValidation();
             ValidationResult results = validator.Validate(this);
 
             if (!results.IsValid)
             {
-                //StringBuilder sb = new StringBuilder();{
                 foreach (var error in results.Errors)
                 {
                     MessageBox.Show(error.ErrorMessage, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -41,20 +42,23 @@ namespace ConsultorioPsicopedagogico.CPresentacion
             }
             else
             {
-                MessageBox.Show("Datos guardados correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                txt_anio.Text = "";
-                txt_nom.Text = "";
-                txt_ape.Text = "";
-                txt_domicilio.Text = "";
-                txt_diagnostico.Text = "";
-                txt_tutor.Text = "";
-                txt_colegio.Text = "";
-                txt_dni.Text = "";
-                txt_nivel.Text = "";
-                txt_contTutor.Text = "";
-                txt_obs.Text = "";
+                // Crear el objeto ConcurrentesCL con los datos del formulario
+                ConcurrentesCL concurrente = PasarLogica();
+                TutorCL tutor = PasarLogicaTutor();
 
-                // Código para guardar los datos
+                try
+                {
+                    // Guardar los datos en la base de datos
+                    tutor.GuardarOModificarTutor(tutor, true);
+                    concurrente.CargarEnSql(concurrente);
+                    
+                    LimpiarCampos();
+                   
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error al guardar los datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
@@ -90,9 +94,65 @@ namespace ConsultorioPsicopedagogico.CPresentacion
                     .Matches(@"^\d{10}$").WithMessage("El contacto del tutor debe tener exactamente 10 dígitos y solo contener números.");
                 RuleFor(x => x.txt_obs.Text)
                     .NotEmpty().WithMessage("Ingresar no si no cuenta con obra.");
+                RuleFor(x => x.txt_DniTutor.Text)
+                    .NotEmpty().WithMessage("El DNI del tutor es obligatorio.")
+                    .Matches(@"^\d{8}$").WithMessage("DNI Incorrecto.\nNo ingresar puntos.");
+                RuleFor(x => x.txt_Mail.Text)
+                    .NotEmpty().WithMessage("El email del tutor es obligatorio.")
+                    .EmailAddress().WithMessage("El formato del email es incorrecto.");
+                RuleFor(x => x.txt_Parent.Text)
+                    .NotEmpty().WithMessage("El parentesco del tutor es obligatorio.");
 
 
             }
+        }
+
+      private ConcurrentesCL PasarLogica()
+        {
+            ConcurrentesCL concurrentes = new ConcurrentesCL();
+            concurrentes.Dni_C = Convert.ToInt32(txt_dni.Text);
+            concurrentes.Nombre_C = txt_nom.Text;
+            concurrentes.Apellido_C = txt_ape.Text;
+            concurrentes.FechaNac_C = date_naci.Value.ToString("yyyy-MM-dd");
+            concurrentes.Diagnostico_C = txt_diagnostico.Text;
+            concurrentes.Domicilio_C = txt_domicilio.Text;
+            concurrentes.Escuela_C = txt_colegio.Text;
+            concurrentes.AñoEscolar_C = Convert.ToInt32(txt_anio.Text);
+            concurrentes.NivelEscolar_C = txt_nivel.Text;
+            concurrentes.Obrasocial_C = txt_obs.Text;
+            concurrentes.DniTutor_C1 = Convert.ToInt32(txt_DniTutor.Text);
+
+            return concurrentes;
+        }
+
+        private TutorCL PasarLogicaTutor()
+        {
+            TutorCL tutor = new TutorCL();
+            tutor.DniTutor_C = Convert.ToInt32(txt_dni.Text);
+            tutor.NombreTutor_C = txt_tutor.Text;
+            tutor.ApellidoTutor_C = txt_ape.Text;
+            tutor.TelefonoTutor_C = txt_contTutor.Text;
+            tutor.EmailTutor_C = txt_Mail.Text;
+            tutor.ParentescoTutor_C = txt_Parent.Text;
+            return tutor;
+
+        }
+        void LimpiarCampos()
+        {
+            txt_anio.Text = "";
+            txt_nom.Text = "";
+            txt_ape.Text = "";
+            txt_domicilio.Text = "";
+            txt_diagnostico.Text = "";
+            txt_tutor.Text = "";
+            txt_colegio.Text = "";
+            txt_dni.Text = "";
+            txt_nivel.Text = "";
+            txt_contTutor.Text = "";
+            txt_obs.Text = "";
+            txt_DniTutor.Text = "";
+            txt_Parent.Text = "";
+            txt_Mail.Text = "";
         }
     }
 }

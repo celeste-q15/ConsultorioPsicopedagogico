@@ -23,6 +23,7 @@ namespace ConsultorioPsicopedagogico.CLogica
         private string nivelEscolar_C;
         private string domicilio_C;
         private string obrasocial_C;
+        private int DniTutor_C;
 
         public int Dni_C { get => dni_C; set => dni_C = value; }
         public string Apellido_C { get => apellido_C; set => apellido_C = value; }
@@ -34,6 +35,7 @@ namespace ConsultorioPsicopedagogico.CLogica
         public string NivelEscolar_C { get => nivelEscolar_C; set => nivelEscolar_C = value; }
         public string Domicilio_C { get => domicilio_C; set => domicilio_C = value; }
         public string Obrasocial_C { get => obrasocial_C; set => obrasocial_C = value; }
+        public int DniTutor_C1 { get => DniTutor_C; set => DniTutor_C = value; }
 
         private Concurrentes_CD PasarDatos(ConcurrentesCL c)
         {
@@ -48,7 +50,8 @@ namespace ConsultorioPsicopedagogico.CLogica
                 AñoEscolar_D = c.AñoEscolar_C,
                 NivelEscolar_D = c.NivelEscolar_C,
                 Domicilio_D = c.Domicilio_C,
-                Obrasocial_D = c.Obrasocial_C
+                Obrasocial_D = c.Obrasocial_C,
+                DniTutor_D = c.DniTutor_C1
             };
         }
 
@@ -65,7 +68,8 @@ namespace ConsultorioPsicopedagogico.CLogica
                 AñoEscolar_C = c.AñoEscolar_D,
                 NivelEscolar_C = c.NivelEscolar_D,
                 Domicilio_C = c.Domicilio_D,
-                Obrasocial_C = c.Obrasocial_D
+                Obrasocial_C = c.Obrasocial_D,
+                DniTutor_C1 = c.DniTutor_D
             };
         }
 
