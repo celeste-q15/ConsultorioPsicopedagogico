@@ -23,6 +23,10 @@ namespace ConsultorioPsicopedagogico.CPresentacion
 {
     public partial class CrearInformes : Form
     {
+        private void CrearInformes_Load(object sender, EventArgs e)
+        {
+            dtp_Fecha.Value = DateTime.Now;
+        }
         public CrearInformes()
         {
             InitializeComponent();
@@ -32,7 +36,7 @@ namespace ConsultorioPsicopedagogico.CPresentacion
         {
             try
             {
-                if (!int.TryParse(txt_DNI.Text, out int dni))
+                if (!int.TryParse(lbl_DNI.Text, out int dni))
                 {
                     MessageBox.Show("Ingrese un DNI válido.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
@@ -40,7 +44,7 @@ namespace ConsultorioPsicopedagogico.CPresentacion
 
                 // Cargar los datos del informe
                 InformeCL informe = new InformeCL();
-                if (!informe.CargarInformePorId(3))
+                if (!informe.CargarInformePorId(dni))
                 {
                     MessageBox.Show("No se encontró el informe correspondiente a ese DNI.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
@@ -50,7 +54,7 @@ namespace ConsultorioPsicopedagogico.CPresentacion
                 string html = Properties.Resources.plantilla.ToString();
 
                 // Reemplazar datos estáticos
-                html = html.Replace("@fechaemision", dateTimePicker1.Value.ToString("yyyy-MM-dd"));
+                html = html.Replace("@fechaemision", dtp_Fecha.Value.ToString("yyyy-MM-dd"));
                 html = html.Replace("@nombre", $"{informe.Concurrente_D.Nombre_D} {informe.Concurrente_D.Apellido_D}");
                 html = html.Replace("@edad", CalcularEdad(informe.Concurrente_D.FechaNac_D).ToString());
                 html = html.Replace("@dni", informe.Concurrente_D.Dni_D.ToString());
@@ -116,6 +120,66 @@ namespace ConsultorioPsicopedagogico.CPresentacion
                 return edad;
             }
             return 0;
+        }
+
+        private void btn_select_DNI_Click(object sender, EventArgs e)
+        {
+
+            if (!String.IsNullOrEmpty(txt_DNI.Text))
+            {
+
+                ConcurrentesCL Concurrente1 = new ConcurrentesCL();
+                ConcurrentesCL Concurrente2 = new ConcurrentesCL();
+                Concurrente2 = Concurrente1.SeleccionarPorDni(Convert.ToInt32(txt_DNI.Text));
+                if (Convert.ToInt32(Concurrente2.Dni_C.ToString()) > 0)
+                {
+                    txt_DNI.Enabled = false;
+                    txt_DNI.Text = Concurrente2.Dni_C.ToString();
+
+                }
+                else
+                {
+                    txt_DNI.Enabled = true;
+                    txt_DNI.Text = "";
+                    MessageBox.Show("No se ha encontrado al concurrente", "ERROR", MessageBoxButtons.OK);
+                }
+
+                lbl_DNI.Text = Concurrente2.Dni_C.ToString();
+                lbl_NombreConcurrente.Text = Concurrente2.Nombre_C.ToString()+" "+Concurrente2.Apellido_C.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Debe ingresar el DNI del concurrente para poder buscarlo", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void btn_BuscarArea_Click(object sender, EventArgs e)
+        {
+            if (!String.IsNullOrEmpty(txt_DNI.Text))
+            {
+
+                ConcurrentesCL Concurrente1 = new ConcurrentesCL();
+                ConcurrentesCL Concurrente2 = new ConcurrentesCL();
+                Concurrente2 = Concurrente1.SeleccionarPorDni(Convert.ToInt32(txt_DNI.Text));
+                if (Convert.ToInt32(Concurrente2.Dni_C.ToString()) > 0)
+                {
+                    txt_DNI.Enabled = false;
+                    txt_DNI.Text = Concurrente2.Dni_C.ToString();
+
+                }
+                else
+                {
+                    txt_DNI.Enabled = true;
+                    txt_DNI.Text = "";
+                    MessageBox.Show("No se ha encontrado al concurrente", "ERROR", MessageBoxButtons.OK);
+                }
+
+                lbl_DNI.Text = Concurrente2.Dni_C.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Debe ingresar el DNI del concurrente para poder buscarlo", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
 }           

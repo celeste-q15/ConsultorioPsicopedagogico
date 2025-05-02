@@ -81,7 +81,8 @@
             this.ContactoT,
             this.ObraSoc});
             this.dtg_concurrentes.GridColor = System.Drawing.Color.LavenderBlush;
-            this.dtg_concurrentes.Location = new System.Drawing.Point(12, 80);
+            this.dtg_concurrentes.Location = new System.Drawing.Point(9, 65);
+            this.dtg_concurrentes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtg_concurrentes.Name = "dtg_concurrentes";
             this.dtg_concurrentes.RowHeadersWidth = 51;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.LavenderBlush;
@@ -90,7 +91,7 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
             this.dtg_concurrentes.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dtg_concurrentes.RowTemplate.Height = 24;
-            this.dtg_concurrentes.Size = new System.Drawing.Size(1148, 478);
+            this.dtg_concurrentes.Size = new System.Drawing.Size(861, 388);
             this.dtg_concurrentes.TabIndex = 0;
             // 
             // DNI
@@ -180,9 +181,10 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.LavenderBlush;
-            this.textBox1.Location = new System.Drawing.Point(597, 37);
+            this.textBox1.Location = new System.Drawing.Point(448, 30);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(344, 22);
+            this.textBox1.Size = new System.Drawing.Size(259, 20);
             this.textBox1.TabIndex = 1;
             // 
             // btn_buscar
@@ -192,12 +194,14 @@
             this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_buscar.Font = new System.Drawing.Font("Perpetua Titling MT", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_buscar.ForeColor = System.Drawing.Color.Purple;
-            this.btn_buscar.Location = new System.Drawing.Point(973, 31);
+            this.btn_buscar.Location = new System.Drawing.Point(730, 25);
+            this.btn_buscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_buscar.Name = "btn_buscar";
-            this.btn_buscar.Size = new System.Drawing.Size(125, 32);
+            this.btn_buscar.Size = new System.Drawing.Size(94, 26);
             this.btn_buscar.TabIndex = 2;
             this.btn_buscar.Text = "Buscar";
             this.btn_buscar.UseVisualStyleBackColor = false;
+            this.btn_buscar.Click += new System.EventHandler(this.btn_buscar_Click);
             // 
             // btn_agregar
             // 
@@ -206,9 +210,10 @@
             this.btn_agregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_agregar.Font = new System.Drawing.Font("Perpetua Titling MT", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_agregar.ForeColor = System.Drawing.Color.Purple;
-            this.btn_agregar.Location = new System.Drawing.Point(28, 564);
+            this.btn_agregar.Location = new System.Drawing.Point(21, 458);
+            this.btn_agregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_agregar.Name = "btn_agregar";
-            this.btn_agregar.Size = new System.Drawing.Size(149, 32);
+            this.btn_agregar.Size = new System.Drawing.Size(112, 26);
             this.btn_agregar.TabIndex = 3;
             this.btn_agregar.Text = "Agregar";
             this.btn_agregar.UseVisualStyleBackColor = false;
@@ -218,18 +223,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Perpetua Titling MT", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(126, 12);
+            this.label1.Location = new System.Drawing.Point(94, 10);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(400, 52);
+            this.label1.Size = new System.Drawing.Size(325, 42);
             this.label1.TabIndex = 5;
             this.label1.Text = "CONCURRENTES";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ConsultorioPsicopedagogico.Properties.Resources.Screenshot_9;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(9, 10);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(85, 62);
+            this.pictureBox1.Size = new System.Drawing.Size(64, 50);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -240,9 +247,10 @@
             this.btn_editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_editar.Font = new System.Drawing.Font("Perpetua Titling MT", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_editar.ForeColor = System.Drawing.Color.Purple;
-            this.btn_editar.Location = new System.Drawing.Point(205, 564);
+            this.btn_editar.Location = new System.Drawing.Point(154, 458);
+            this.btn_editar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_editar.Name = "btn_editar";
-            this.btn_editar.Size = new System.Drawing.Size(149, 32);
+            this.btn_editar.Size = new System.Drawing.Size(112, 26);
             this.btn_editar.TabIndex = 7;
             this.btn_editar.Text = "Editar";
             this.btn_editar.UseVisualStyleBackColor = false;
@@ -253,9 +261,10 @@
             this.btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_eliminar.Font = new System.Drawing.Font("Perpetua Titling MT", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_eliminar.ForeColor = System.Drawing.Color.Purple;
-            this.btn_eliminar.Location = new System.Drawing.Point(376, 564);
+            this.btn_eliminar.Location = new System.Drawing.Point(282, 458);
+            this.btn_eliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_eliminar.Name = "btn_eliminar";
-            this.btn_eliminar.Size = new System.Drawing.Size(149, 32);
+            this.btn_eliminar.Size = new System.Drawing.Size(112, 26);
             this.btn_eliminar.TabIndex = 8;
             this.btn_eliminar.Text = "Eliminar";
             this.btn_eliminar.UseVisualStyleBackColor = false;
@@ -266,19 +275,20 @@
             this.btn_volver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_volver.Font = new System.Drawing.Font("Perpetua Titling MT", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_volver.ForeColor = System.Drawing.Color.Purple;
-            this.btn_volver.Location = new System.Drawing.Point(973, 564);
+            this.btn_volver.Location = new System.Drawing.Point(730, 458);
+            this.btn_volver.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_volver.Name = "btn_volver";
-            this.btn_volver.Size = new System.Drawing.Size(149, 32);
+            this.btn_volver.Size = new System.Drawing.Size(112, 26);
             this.btn_volver.TabIndex = 9;
             this.btn_volver.Text = "Volver";
             this.btn_volver.UseVisualStyleBackColor = false;
             // 
             // Concurrentes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LavenderBlush;
-            this.ClientSize = new System.Drawing.Size(1164, 608);
+            this.ClientSize = new System.Drawing.Size(873, 494);
             this.Controls.Add(this.btn_volver);
             this.Controls.Add(this.btn_eliminar);
             this.Controls.Add(this.btn_editar);
@@ -288,6 +298,7 @@
             this.Controls.Add(this.btn_buscar);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dtg_concurrentes);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Concurrentes";
             this.Text = "Concurrentes";
             ((System.ComponentModel.ISupportInitialize)(this.dtg_concurrentes)).EndInit();

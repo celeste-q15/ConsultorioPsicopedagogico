@@ -39,7 +39,7 @@
             this.btnGuardarPDF_Click = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.volver_btn = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtp_Fecha = new System.Windows.Forms.DateTimePicker();
             this.btn_select_DNI = new System.Windows.Forms.Button();
             this.lbl_NombreConcurrente = new System.Windows.Forms.Label();
             this.lbl_DNI = new System.Windows.Forms.Label();
@@ -173,14 +173,13 @@
             this.volver_btn.Text = "Volver";
             this.volver_btn.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker1
+            // dtp_Fecha
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(590, 119);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(192, 20);
-            this.dateTimePicker1.TabIndex = 31;
-            this.dateTimePicker1.Visible = false;
+            this.dtp_Fecha.Location = new System.Drawing.Point(590, 119);
+            this.dtp_Fecha.Margin = new System.Windows.Forms.Padding(2);
+            this.dtp_Fecha.Name = "dtp_Fecha";
+            this.dtp_Fecha.Size = new System.Drawing.Size(192, 20);
+            this.dtp_Fecha.TabIndex = 31;
             // 
             // btn_select_DNI
             // 
@@ -190,6 +189,7 @@
             this.btn_select_DNI.TabIndex = 32;
             this.btn_select_DNI.Text = "Selecionar DNI";
             this.btn_select_DNI.UseVisualStyleBackColor = true;
+            this.btn_select_DNI.Click += new System.EventHandler(this.btn_select_DNI_Click);
             // 
             // lbl_NombreConcurrente
             // 
@@ -253,6 +253,7 @@
             this.btn_BuscarArea.TabIndex = 39;
             this.btn_BuscarArea.Text = "Buscar Area";
             this.btn_BuscarArea.UseVisualStyleBackColor = true;
+            this.btn_BuscarArea.Click += new System.EventHandler(this.btn_BuscarArea_Click);
             // 
             // btn_DescargarPDF
             // 
@@ -279,7 +280,7 @@
             this.Controls.Add(this.lbl_DNI);
             this.Controls.Add(this.lbl_NombreConcurrente);
             this.Controls.Add(this.btn_select_DNI);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtp_Fecha);
             this.Controls.Add(this.volver_btn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnGuardarPDF_Click);
@@ -293,6 +294,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "CrearInformes";
             this.Text = "Informes";
+            this.Load += new System.EventHandler(this.CrearInformes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -314,7 +316,7 @@
         private System.Windows.Forms.Button btnGuardarPDF_Click;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button volver_btn;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtp_Fecha;
         private System.Windows.Forms.Button btn_select_DNI;
         private System.Windows.Forms.Label lbl_NombreConcurrente;
         private System.Windows.Forms.Label lbl_DNI;

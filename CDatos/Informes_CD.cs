@@ -129,9 +129,7 @@ namespace ConsultorioPsicopedagogico.CDatos
                     }
                 }
             }
-
             return lista;
         }
-
     }
 }
