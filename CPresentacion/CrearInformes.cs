@@ -113,6 +113,7 @@ namespace ConsultorioPsicopedagogico.CPresentacion
         // Función para calcular edad desde string fecha
         private int CalcularEdad(string fechaNacStr)
         {
+<<<<<<< Updated upstream
             if (DateTime.TryParse(fechaNacStr, out DateTime fechaNac))
             {
                 int edad = DateTime.Today.Year - fechaNac.Year;
@@ -120,6 +121,11 @@ namespace ConsultorioPsicopedagogico.CPresentacion
                 return edad;
             }
             return 0;
+=======
+            CPresentacion.Menu menu = new CPresentacion.Menu();
+            menu.Show();
+            this.Hide();
+>>>>>>> Stashed changes
         }
 
         private void btn_select_DNI_Click(object sender, EventArgs e)

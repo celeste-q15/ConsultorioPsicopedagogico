@@ -17,8 +17,19 @@ namespace ConsultorioPsicopedagogico.CPresentacion
         {
             InitializeComponent();
         }
+<<<<<<< Updated upstream
         CLogica.ConcurrentesCL con = new CLogica.ConcurrentesCL();
         
         
+=======
+
+        private void volver_btn_Click(object sender, EventArgs e)
+        {
+            CPresentacion.Menu menu = new CPresentacion.Menu();
+            menu.Show();
+            this.Hide();
+
+        }
+>>>>>>> Stashed changes
     }
 }
